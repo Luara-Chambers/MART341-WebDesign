@@ -1,5 +1,13 @@
-1.My name is Luara.
+1. The world wide web is different than the internet in the way that the internet houses the world wide web. Without the internet there would be no world wide web.
 
-2.I like cats.
+2. The internet works by being composed of all of the networks being connected to eachother from various systems around the world. By all of these systems being activated at the same time we have what we know as the internet running.
 
-3.I am excited about this course.
+3.A directory is a folder that houses files on a computer. A directory can house another directory as well.
+
+4.VCS will most likely benefit me when I have to work on a project with multiple people. It will enable us to be able to work on the project seperately while then merging the project back together at a later time.
+
+5. Screenshot Taken.
+
+6.My favorite kind of art has to be music. I love hearing, and listening to different songs and discovering new artists.
+
+7. Renamed Screenshot.
