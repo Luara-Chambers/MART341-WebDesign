@@ -1,0 +1,11 @@
+1. I enjoy visiting Youtube, Spotify, and Itunes, for the three websites I visit the most.
+
+2. An IP Address is the internet address of the device, and the DNS uses that address to locate the device, and connect it to other devices.
+
+3. A cookie is data stored on a machine that saves information to make the computer easier to identify when it reconnects to a network.
+
+4. The three essential parts of a URL are the Protocol, Domain, and the Path. Together they combine to create an Absolute, or Relative URL.
+
+5. Edited README
+
+6. This week I have learned about how the world wide web and internet are different yet similar. I learned how to create a readme in Atom, and import it to GitHub. Finally I learned how the Internet was created and how it is maintained.
