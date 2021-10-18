@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang ="en-us">
+ <head>
+   <meta charset="utf-8">
+   <meta name="description" content="A page including information about my favorite business.">
+   <meta name="author" content="Luara Chambers">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+    table, th, td {
+      border: 1px solid red;
+      padding: 5px;
+    }
+    </style>
+   <title>Game Stop Southgate Mall</title>
+ </head>
+<body>
+   <img src="images/gamestop.png" width=400 height="250" alt="Game Stop Logo" title="Game Stop Logo" /><br />
+   <h1>Contact us!</h1>
+   <address>
+     Gamestop<br />
+     2901 Brooks St<br />
+     Missoula, MT, 59801<br />
+     (406)721-0320<br />
+   </address>
+   <p><a href="mailto:care@gamestop.com">Email us!</a></P>
+   <p>
+     <table>
+      <tr>
+        <th>Day</th>
+        <th>Hours of Operation</th>
+      </tr>
+      <tr>
+        <td>Monday</td>
+        <td>10:00 AM - 8:00 PM</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td>10:00 AM - 8:00 PM</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>10:00 AM - 8:00 PM</td>
+      </tr>
+      <tr>
+        <td>Thursday</td>
+        <td>10:00 AM - 8:00 PM</td>
+      </tr>
+      <tr>
+        <td>Friday</td>
+        <td>10:00 AM - 8:00 PM</td>
+      </tr>
+      <tr>
+        <td>Saturday</td>
+        <td>10:00 AM - 8:00 PM</td>
+      </tr>
+      <tr>
+        <td>Sunday</td>
+        <td>11:00 AM - 6:00 PM</td>
+      </tr>
+    </table>
+  </p>
+  <form method="POST" action="index.html">
+    Please enter your name:<br />
+    <input type="text" id="name" placeholder="Please enter your name">
+    <br />
+    Do you like cats?<br />
+    Yes<input type="radio" name ="cats" id="cats" value="Y">
+    No<input type="radio" name ="cats" id="cats" value="N">
+    <br />
+    Please leave feedback<br />
+    <textarea nam="feedback" id="feedback" rows="15" cols="45"></textarea><br />
+    <input type="submit" name="submit" value="Submit" />
+  </form>
+</body>
+</html>
