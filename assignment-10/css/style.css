@@ -1,0 +1,54 @@
+body{
+  font-family: cursive;
+}
+
+.first-container {
+
+  /* Information for first container. */
+
+  border-style: solid;
+  border-width: 15px;
+  border-color: pink;
+  padding: 10px;
+  background: grey;
+  width: 75%;
+  margin: auto;
+  opacity: 1;
+  text-align: center;
+}
+
+.second-container {
+
+  /* Information for second container. */
+
+  border-style: solid;
+  border-width: 15px;
+  border-color: yellow;
+  padding: 10px;
+  background: grey;
+  width: 75%;
+  margin: auto;
+  opacity: 1;
+  text-align: center;
+}
+
+.third-container {
+
+  /* Information for third container. */
+
+  border-style: solid;
+  border-width: 15px;
+  border-color: orange;
+  padding: 10px;
+  background: grey;
+  width: 75%;
+  margin: auto;
+  opacity: 1;
+  text-align: center;
+}
+
+#header{
+  /*Information for headers. */
+
+  color: purple;
+}
