@@ -1,0 +1,21 @@
+div{
+  text-align: left;
+  font-family: YujiSyuku, YujiMai, YujiBoku;
+}
+h1, h2, h3{
+  color: gold;
+  text-align: center;
+  font-family: YujiMai, YujiBoku, YujiSyuku;
+}
+.opening{
+  text-align: left;
+  font-family: YujiBoku, YujiMai, YujiSyuku;
+}
+#info{
+  text-decoration: none;
+  color: red;
+}
+#info:hover{
+  text-decoration: underline;
+  color: green;
+}
