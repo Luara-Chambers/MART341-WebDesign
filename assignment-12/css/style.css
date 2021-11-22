@@ -1,0 +1,80 @@
+div{
+  text-align: left;
+  font-family: YujiSyuku, YujiMai, YujiBoku;
+}
+h1, h2, h3{
+  color: gold;
+  text-align: center;
+  font-family: YujiMai, YujiBoku, YujiSyuku;
+}
+.opening{
+  text-align: left;
+  font-family: YujiBoku, YujiMai, YujiSyuku;
+}
+#info{
+  text-decoration: none;
+  color: red;
+}
+#info:hover{
+  text-decoration: underline;
+  color: green;
+}
+header {
+  position:fixed;
+  top: 0px;
+  left: 0px;
+  background-color: blue;
+  font-family: YujiMai;
+  text-transform: uppercase;
+  margin-top: 0;
+  height: 4em;
+  width: 100%;
+  text-align: left;
+}
+.menu-item {
+  display: inline-block;
+  margin: 1em .2em;
+  min-width: 6em;
+  text-align: center;
+  background-color: blue;
+  padding: 0.5em 1em;
+}
+.menu-item a {
+  color: white;
+  text-decoration: none;
+}
+.menu-item:hover {
+  background-color: gray;
+}
+.droopdown {
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  border: 1px solid black;
+  margin: 0.5em 0 0 -1em;
+  color: black;
+  background-color: white;
+  z-index: 1;
+}
+.dropdown-content a{
+  color: black;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-item{
+  display: block;
+  text-align: left;
+  margin: 0;
+  padding: 0.5em 1em 0.5em 1em;
+  min-width: 5.9em;
+}
+.dropdown-item:hover, .dropdown-item:hover a{
+  color: black;
+  background-color: white;
+}
+.imageone{
+  float:right;
+}
