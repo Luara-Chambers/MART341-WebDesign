@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+.textareacomments{
+  padding-bottom: 300px;
+}
+body{
+  background-color: beige;
+}
+div{
+  text-align: left;
+  line-height: 1.45em;
+  font-family: YujiSyuku, YujiBoku;
+  margin-bottom: 10px;
+  padding: 5px;
+  color: blue;
+}
+h1, h2, h3{
+  text-align: center;
+  font-family: YujiSyuku, YujiBoku;
+  color: blue;
+}
+header {
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  background-color: blue;
+  font-family: YujiMai, YujiBoku;
+  text-transform: uppercase;
+  margin-top: 0;
+  height: 4em;
+  width: 100%;
+  text-align: left;
+  z-index:auto;
+}
+.menu-item {
+  display: inline-block;
+  margin: 1em .2em;
+  min-width: 6em;
+  text-align: center;
+  color: gold;
+  background-color: blue;
+  padding: 0.5em 1em;
+}
+.menu-item a {
+  color: gold;
+  text-decoration: none;
+}
+.menu-item:hover {
+  background-color: gray;
+}
+.dropdown {
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  border: 1px solid black;
+  margin: 0.5em 0 0 -1em;
+  color: black;
+  background-color: blue;
+  z-index: 1;
+}
+.dropdown-content a{
+  color: gold;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-item{
+  display: block;
+  text-align: left;
+  margin: 0;
+  padding: 0.5em 1em 0.5em 1em;
+  min-width: 5.9em;
+}
+.dropdown-item:hover, .dropdown-item:hover a{
+  color: black;
+  background-color: white;
+}
+.firstimage{
+  float: center;
+  width: 300px;
+  height: 300px;
+  content:url("../images/bluesky.jpg");
+}
+
+@media only screen and (min-width: 600px) {
+  .firstimage{
+    float: center;
+    width: 600px;
+    height: 600px;
+    content:url("../images/bluesky.jpg");
+  }
+}
+.secondimage{
+  float: center;
+  width: 300px;
+  height: 300px;
+  content:url("../images/cabin.jpg");
+}
+
+@media only screen and (min-width: 600px) {
+  .secondimage{
+    float: center;
+    width: 600px;
+    height: 600px;
+    content:url("../images/cabin.jpg");
+  }
+}
+.thirdimage{
+  float: center;
+  width: 300px;
+  height: 300px;
+  content:url("../images/springer.jpg");
+}
+
+@media only screen and (min-width: 600px) {
+  .thirdimage{
+    float: center;
+    width: 600px;
+    height: 600px;
+    content:url("../images/springer.jpg");
+  }
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"]{
+  float: left;
+  padding: 15px;
+}
+.row::after{
+  content:"";
+  clear:both;
+  display: table;
+}
+.contact{
+  width:50%;
+  margin-left: 25%;
+}
