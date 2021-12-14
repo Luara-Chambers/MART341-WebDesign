@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+.textareacomments{
+  padding-bottom: 300px;
+}
+body{
+  background-color: beige;
+}
+div{
+  text-align: left;
+  line-height: 1.45em;
+  font-family: YujiSyuku, YujiBoku;
+  margin-bottom: 10px;
+  padding: 5px;
+  color: blue;
+}
+h1, h2, h3{
+  text-align: center;
+  font-family: YujiSyuku, YujiBoku;
+  color: blue;
+}
+.navbar {
+  backtground-color: blue;
+  overflow: hidden;
+}
+.navbar a{
+  float: left;
+  display: block;
+  background-color: blue;
+  color: gold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover {
+  background-color: gray;
+  color: gold;
+}
+.navbar a.active{
+  background-color: green;
+  color: gold;
+}
+.navbar .icon{
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a{
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+.firstimage{
+  float: center;
+  width: 150px;
+  height: 150px;
+  content:url("../images/smile.jpeg");
+}
+
+@media only screen and (min-width: 600px) {
+  .firstimage{
+    float: center;
+    width: 300px;
+    height: 300px;
+    content:url("../images/smile.jpeg");
+  }
+}
+.secondimage{
+  float: center;
+  width: 150px;
+  height: 150px;
+  content:url("../images/dogs.jpeg");
+}
+
+@media only screen and (min-width: 600px) {
+  .secondimage{
+    float: center;
+    width: 300px;
+    height: 300px;
+    content:url("../images/dogs.jpeg");
+  }
+}

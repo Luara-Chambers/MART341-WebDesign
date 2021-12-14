@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'YujiBoku';
+  src: url('../fonts/YujiBoku-Regular.ttf') format('truetype');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'YujiMai';
+  src: url('../fonts/YujiMai-Regular.ttf') format('truetype');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'YujiSyuku';
+  src: url('../fonts/YujiSyuku-Regular.ttf') format('truetype');
+  font-style: normal;
+}
